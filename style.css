@@ -1,0 +1,98 @@
+@charset "UTF-8"; 
+* {
+    margin: 0%; padding: 0%;
+} 
+
+@font-face {
+    font-family: 'Srisakdi';
+    src: url(Srisakdi-Bold.ttf);
+} 
+@font-face {
+    font-family: 'Passion One';
+    src: url(PassionOne-Bold.ttf);
+}
+
+html, body {
+    background-color: darkgray;
+    min-height: 100%vh;
+} 
+header {
+    background-color: black;
+    color: white; 
+    text-align: center;
+    
+} 
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family:'Passion One';
+    font-size: 80px;
+} 
+header > p { 
+    padding-bottom: 50px;
+    font-family:'Passion One';
+    font-size: 40px;
+}
+a{
+    color: white;
+    text-decoration: none; 
+    font-weight: bolder;
+} 
+a:hover {
+    text-decoration:underline;
+} 
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    font-family: 'Srisakdi', cursive;
+    
+} 
+section > p {
+    padding-left: 40px; padding-right: 40px; padding-top: 10px; padding-bottom: 10px;
+    font-family: var(--fontepoema);
+    font-size: 3vw;
+    line-height: 35px;
+    
+} 
+.imagem > p {
+    background-color: rgba(0, 0, 0, 0.384);
+    width: 350px; 
+    margin-left: 20px;
+    border-radius: 10px;
+    text-shadow: 2px 2px 2px black;
+    max-width: 50vw;
+}
+.normal {
+    background-color: white;
+    color: black;
+
+} 
+.imagem {
+    background-color: rgb(39, 37, 37);
+    color: white;
+    background-size: cover;
+    background-attachment:fixed;
+}
+footer {
+    background-color: black;
+    text-align: center;
+} 
+footer > p {
+    color: white; 
+    padding-top: 50px; padding-bottom: 50px;
+    font-size: 110%;
+}
+#img1 {
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    
+
+} 
+#img2{
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    
+}
